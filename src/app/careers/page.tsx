@@ -1,3 +1,5 @@
+'use client';
+
 import { Box, Container, Typography, Card, CardContent, Button, Chip, Stack } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import Header from '@/components/layout/Header';
@@ -6,12 +8,6 @@ import ScrollToTop from '@/components/common/ScrollToTop';
 import AnimatedSection from '@/components/common/AnimatedSection';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Link from 'next/link';
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-    title: '採用情報 | タケヤ電機株式会社',
-    description: 'タケヤ電機の採用情報、募集要項、福利厚生をご紹介します。',
-};
 
 const jobs = [
     {

@@ -1,15 +1,11 @@
+'use client';
+
 import { Box, Container, Typography, Card, CardContent } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import ScrollToTop from '@/components/common/ScrollToTop';
 import AnimatedSection from '@/components/common/AnimatedSection';
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-    title: '企業理念 | タケヤ電機株式会社',
-    description: 'タケヤ電機の経営理念、ビジョン、行動指針をご紹介します。',
-};
 
 const values = [
     {

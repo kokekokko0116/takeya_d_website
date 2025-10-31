@@ -1,3 +1,5 @@
+'use client';
+
 import { Box, Container, Typography, Card, CardContent } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import Header from '@/components/layout/Header';
@@ -8,12 +10,6 @@ import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import GroupsIcon from '@mui/icons-material/Groups';
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import StorefrontIcon from '@mui/icons-material/Storefront';
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-    title: '経営戦略 | タケヤ電機株式会社',
-    description: 'タケヤ電機の事業戦略、将来展望、成長計画をご紹介します。',
-};
 
 const strategies = [
     {

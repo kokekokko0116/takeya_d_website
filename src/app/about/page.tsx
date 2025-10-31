@@ -1,3 +1,5 @@
+'use client';
+
 import { Box, Container, Typography, Button } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import Header from '@/components/layout/Header';
@@ -6,12 +8,6 @@ import ScrollToTop from '@/components/common/ScrollToTop';
 import AnimatedSection from '@/components/common/AnimatedSection';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Link from 'next/link';
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-    title: 'これがタケヤデンキ | タケヤ電機株式会社',
-    description: '香川県で70年。地域に根ざした家電販売とリフォーム事業を展開するタケヤ電機の会社案内です。',
-};
 
 export default function AboutPage() {
     return (

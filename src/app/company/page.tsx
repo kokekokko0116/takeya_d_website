@@ -1,3 +1,5 @@
+'use client';
+
 import { Box, Container, Typography, Table, TableBody, TableCell, TableContainer, TableRow, Paper } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import Header from '@/components/layout/Header';
@@ -5,12 +7,6 @@ import Footer from '@/components/layout/Footer';
 import ScrollToTop from '@/components/common/ScrollToTop';
 import AnimatedSection from '@/components/common/AnimatedSection';
 import { COMPANY_INFO } from '@/lib/constants';
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-    title: '会社概要 | タケヤ電機株式会社',
-    description: 'タケヤ電機株式会社の会社概要、沿革をご紹介します。',
-};
 
 const history = [
     { year: '1953年', event: 'タケヤ電機商会として創業' },

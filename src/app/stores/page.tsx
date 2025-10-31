@@ -1,3 +1,5 @@
+'use client';
+
 import { Box, Container, Typography, Card, CardContent, Button, Chip, Stack } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import Header from '@/components/layout/Header';
@@ -9,12 +11,6 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import DirectionsIcon from '@mui/icons-material/Directions';
 import { STORES } from '@/lib/constants';
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-    title: '店舗一覧 | タケヤ電機株式会社',
-    description: 'タケヤ電機の店舗情報。香川県内4店舗でお客様をお待ちしています。',
-};
 
 export default function StoresPage() {
     return (
