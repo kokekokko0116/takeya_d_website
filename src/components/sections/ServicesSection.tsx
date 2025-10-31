@@ -20,6 +20,7 @@ import ChatIcon from '@mui/icons-material/Chat';
 import Link from 'next/link';
 import AnimatedSection from '@/components/common/AnimatedSection';
 import { SERVICES } from '@/lib/constants';
+import { JSX } from 'react';
 
 const iconMap: { [key: string]: JSX.Element } = {
     devices: <DevicesIcon sx={{ fontSize: 40 }} />,
