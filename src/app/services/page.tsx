@@ -12,6 +12,7 @@ import ChatIcon from '@mui/icons-material/Chat';
 import Link from 'next/link';
 import { SERVICES } from '@/lib/constants';
 import { Metadata } from 'next';
+import { JSX } from 'react';
 
 export const metadata: Metadata = {
     title: 'サービス一覧 | タケヤ電機株式会社',
